@@ -8,7 +8,8 @@ It contains:
 * Cyclos DB
 * Nagios
 * Request Tracker 4
-* Webmin  
+* Webmin
+* Asterisk/FreePBX
 
 Tested on Xubuntu 15.10  
 
@@ -47,3 +48,7 @@ You will need a Cyclos account to setup and configure it.
  * http://$ip:10000
  * Username: root
  * Password: pass
+ 
+### Asterisk:
+ * http://$ip:8050/admin
+ * User/pass created on first login
