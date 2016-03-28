@@ -12,9 +12,8 @@ services:
       - 9123:9123
       - 1935:1935
     environment:
-      - SERVER_NAME=192.168.99.100
       - BBB_INSTALL_DEMOS=yes
-    network_mode: host
+      - SERVER_SALT=c130a859716cbe2cd6367705f6e33a33
   rt:
     image: netsandbox/request-tracker
     ports:
