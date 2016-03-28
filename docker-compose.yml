@@ -39,4 +39,7 @@ services:
     image: chsliu/docker-webmin
     ports:
       - 10000:10000
-
+  freepbx:
+    image: jmar71n/freepbx
+    ports:
+      - 8050:80
