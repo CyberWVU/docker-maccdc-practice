@@ -8,6 +8,9 @@ It contains:
 * Cyclos DB
 * Nagios
 * Request Tracker 4
+* Webmin  
+
+Tested on Xubuntu 15.10  
 
 Running:
 ---------------
@@ -38,4 +41,9 @@ You will need a Cyclos account to setup and configure it.
 #### Request Tracker:
 * http://$ip:8010
 * Username: root
-* Passowrd: password
+* Password: password
+
+#### Webmin:
+ * http://$ip:10000
+ * Username: root
+ * Password: pass
