@@ -35,3 +35,8 @@ services:
       - DB_NAME=example
       - DB_USER=example
       - DB_PASSWORD=examplepwd
+  webmin:
+    image: chsliu/docker-webmin
+    ports:
+      - 10000:10000
+
