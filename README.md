@@ -9,9 +9,6 @@ It contains:
 * Nagios
 * Request Tracker 4
 
-At the moment Big Blue Button needs some tweaking.
-
-
 Running:
 ---------------
 1. Install [docker](https://docs.docker.com/engine/installation/), [docker-compose](https://docs.docker.com/compose/install/)
